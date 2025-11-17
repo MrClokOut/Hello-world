@@ -1,0 +1,15 @@
+.main{
+    width: 675px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+    padding: 9px 16px;
+}
+
+.naming{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}

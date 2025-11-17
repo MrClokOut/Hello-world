@@ -1,6 +1,7 @@
 import Image from "next/image"
 import styles from '../ui/ui.module.css'
 
+
 export const Cover = ({src}) =>{
     return(
         <Image src={src} alt="облокжа" />
@@ -10,18 +11,18 @@ export const Cover = ({src}) =>{
 
 export const Title = ({children}) =>{
     return(
-        <span className={styles.title}>(children)</span>
+        <span className={styles.title}>{children}</span>
     )
 }
 
 export const Artist = ({artist}) =>{
     return(
-        <p>(artist)</p>
+        <p className={styles.title}>{artist}</p>
     )
 }
 
 export const Duration = ({duration}) =>{
     return(
-        <span>(duration)</span>
+        <span className={styles.title}>{duration}</span>
     )
 }
