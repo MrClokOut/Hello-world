@@ -4,7 +4,7 @@ import tracksList from '@/app/assests/tracksList';
 
 export const SongList = () =>{
     return(
-        <div>
+        <div className={styles.trackslist}>
             {tracksList.map((track) => {
                 return(
                     <Card key={track.id} {...track} />

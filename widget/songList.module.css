@@ -1,0 +1,7 @@
+.trackslist{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 17px 12px;
+    gap: 10px;
+}

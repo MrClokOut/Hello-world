@@ -4,7 +4,7 @@ import styles from '../ui/ui.module.css'
 
 export const Cover = ({src}) =>{
     return(
-        <Image src={src} alt="облокжа" />
+        <Image src={src} alt="облокжа" width={47} height={47}/>
     )
 }
 

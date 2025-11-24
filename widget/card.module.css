@@ -1,6 +1,4 @@
 .main{
-    width: 675px;
-    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,4 +10,11 @@
     display: flex;
     align-items: center;
     gap:12px;
+}
+
+.reaction{
+    display: flex;
+    align-items: center;
+    
+    gap: 15px;
 }
